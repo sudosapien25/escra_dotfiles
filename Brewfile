@@ -4,12 +4,17 @@ brew "node"
 brew "yarn"
 brew "pnpm"
 
+# Python development
+brew "python@3.13"
+brew "pip"
+
 # Docker for containerization
 brew "docker"
 brew "docker-compose"
 
 # Database tools
-brew "postgresql"
+brew "postgresql@15"
+brew "mongodb-community"
 brew "redis"
 
 # Utilities for development
@@ -39,3 +44,6 @@ brew "tmux"
 brew "fzf"
 brew "ripgrep"
 brew "bat"
+
+# MongoDB tap
+tap "mongodb/brew"
